@@ -1,0 +1,134 @@
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.product-img {
+  width: 40%;
+  border-radius: 10px;
+  margin: 5px;
+}
+.product-description-container {
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 34px;
+  color: #1e293b;
+}
+
+.price {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.rating-reviews-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.star-img {
+  height: 20px;
+  width: 20px;
+}
+
+.total-reviews {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 16px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #616e7c;
+  margin-top: 0px;
+}
+
+.available {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.span-availabe {
+  font-weight: 300;
+  color: #616e7c;
+}
+
+.seperator {
+  color: #475569;
+  height: 1px;
+  width: 100%;
+}
+
+.increment-decrement-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.decrement-button {
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  
+}
+
+.add-to-cart {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  outline: none;
+  border: solid 1px #3b82f6;
+}
+
+.similar-products {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  padding-left: 40px;
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.similar-products-item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
